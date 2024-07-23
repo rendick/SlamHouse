@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'Navbar Font';
+	src: url($lib/assets/fonts/Squealer-Regular.otf);
+}
+
+body {
+	margin: 0;
+	/* background-color: #fdff00; */
+	background: url($lib/assets/images/zombie.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	background-color: black;
+}
