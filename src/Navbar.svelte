@@ -2,16 +2,14 @@
 	import './style.css';
 	let NavbarText = {
 		HomePage: 'Home',
-		FaqPage: "FAQ",
-		SuggestPage: 'Suggest'
-		};
+		FaqPage: 'FAQ',
+	};
 </script>
 
 <div class="header">
 	<div class="header-center">
 		<a href="/">{NavbarText.HomePage}</a>
 		<a href="/faq">{NavbarText.FaqPage}</a>
-		<a href="/suggest">{NavbarText.SuggestPage}</a>
 	</div>
 </div>
 
